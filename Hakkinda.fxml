@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #002634;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.ferhatkurt.Kontroller">
+   <children>
+      <Hyperlink fx:id="webSite" layoutX="39.0" layoutY="363.0" onMouseClicked="#webSite" style="-fx-text-fill: CYAN;" text="Üretici Web Sitesi" />
+      <Hyperlink fx:id="sosyal" layoutX="350.0" layoutY="363.0" onAction="#sosyalMedyalar" style="-fx-text-fill: CYAN;" text="Sosyal Medyalar" />
+      <Button fx:id="HakkindaKapat" layoutX="504.0" layoutY="362.0" mnemonicParsing="false" onMouseClicked="#hakkindaKapat" prefHeight="27.0" prefWidth="80.0" style="-fx-background-color: #002634; -fx-border-color: #FFFFFF;" text="Kapat" textFill="WHITE">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Label layoutX="39.0" layoutY="40.0" text="Bu program Ferhat Kurt tarafından üretilmiştir. Soru görüş ve önerileriniz için &#10;tryzereton@hotmail.com,&#10;facebook.com/ferhatkrtt,&#10;instagram.com/ferhatkrtt adreslerinden iletişime geçebilirsiniz.&#10;&#10;Bu yazılım tamamen ücretsizdir ve daima ücretsiz  kalacaktır.&#10;&#10;GameBot yazılımı Eclipse Public License ile lisanslanmıştır. &#10;GameBot yazılımı açık kaynaktır ve Üretici Web Sistesinden kaynak kodlara ulaşabilirsiniz.&#10;&#10;Yazılım Hakkında&#10;----------------------&#10;Tüm tuş kombinasyonları ASCII karakter seti ile çalışmaktadır.&#10;Ayrıca Extra (1-2-3-4) tuşlarına ek olarak (F1,F2,F3,F4 ve F5) tuşları da eklenmiştir.&#10;Extra tuşlarda giriş uzunluğu yoktur. Diğer tuşlarda sadece ilk karakter ele alınmaktadır. " textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

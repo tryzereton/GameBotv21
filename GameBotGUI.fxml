@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="694.0" style="-fx-background-color: #002634;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.ferhatkurt.Kontroller">
+   <children>
+      <ChoiceBox fx:id="c1" layoutX="224.0" layoutY="115.0" prefHeight="25.0" prefWidth="64.0" style="-fx-font-family: Trebuchet MS;" />
+      <ChoiceBox fx:id="c2" layoutX="224.0" layoutY="155.0" prefHeight="25.0" prefWidth="64.0" style="-fx-font-family: Trebuchet MS;" />
+      <ChoiceBox fx:id="c8" layoutX="566.0" layoutY="117.0" prefHeight="25.0" prefWidth="64.0" style="-fx-font-family: Trebuchet MS;" />
+      <ChoiceBox fx:id="c9" layoutX="566.0" layoutY="155.0" prefHeight="25.0" prefWidth="64.0" style="-fx-font-family: Trebuchet MS;" />
+      <ChoiceBox fx:id="c10" layoutX="566.0" layoutY="193.0" prefHeight="25.0" prefWidth="64.0" style="-fx-font-family: Trebuchet MS;" />
+      <ChoiceBox fx:id="c11" layoutX="566.0" layoutY="232.0" prefHeight="25.0" prefWidth="64.0" style="-fx-font-family: Trebuchet MS;" />
+      <ChoiceBox fx:id="c12" layoutX="566.0" layoutY="269.0" prefHeight="25.0" prefWidth="64.0" style="-fx-font-family: Trebuchet MS;" />
+      <ChoiceBox fx:id="c13" layoutX="566.0" layoutY="309.0" prefHeight="25.0" prefWidth="64.0" style="-fx-font-family: Trebuchet MS;" />
+      <ChoiceBox fx:id="c14" layoutX="566.0" layoutY="348.0" prefHeight="25.0" prefWidth="64.0" style="-fx-font-family: Trebuchet MS;" />
+      <ChoiceBox fx:id="c3" layoutX="224.0" layoutY="193.0" prefHeight="25.0" prefWidth="64.0" style="-fx-font-family: Trebuchet MS;" />
+      <ChoiceBox fx:id="c4" layoutX="224.0" layoutY="231.0" prefHeight="25.0" prefWidth="64.0" style="-fx-font-family: Trebuchet MS;" />
+      <ChoiceBox fx:id="c5" layoutX="224.0" layoutY="268.0" prefHeight="25.0" prefWidth="64.0" style="-fx-font-family: Trebuchet MS;" />
+      <ChoiceBox fx:id="c6" layoutX="224.0" layoutY="307.0" prefHeight="25.0" prefWidth="64.0" style="-fx-font-family: Trebuchet MS;" />
+      <ChoiceBox fx:id="c7" layoutX="224.0" layoutY="346.0" prefHeight="25.0" prefWidth="64.0" style="-fx-font-family: Trebuchet MS;" />
+      <Button fx:id="b1" alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="204.0" layoutY="405.0" mnemonicParsing="false" onAction="#botuBaslat" textFill="#010101">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="b2" alignment="CENTER" contentDisplay="CENTER" layoutX="311.0" layoutY="405.0" mnemonicParsing="false" onAction="#botuDurdur" text="Botu Durdur" textFill="#010101">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Label layoutX="53.0" layoutY="158.0" style="-fx-font-family: Trebuchet MS;" text="2." textFill="ORANGE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="53.0" layoutY="118.0" style="-fx-font-family: Trebuchet MS;" text="1. " textFill="ORANGE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="53.0" layoutY="234.0" style="-fx-font-family: Trebuchet MS;" text="4." textFill="ORANGE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="53.0" layoutY="196.0" style="-fx-font-family: Trebuchet MS;" text="3." textFill="ORANGE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="53.0" layoutY="310.0" style="-fx-font-family: Trebuchet MS;" text="6." textFill="ORANGE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="53.0" layoutY="270.0" style="-fx-font-family: Trebuchet MS;" text="5." textFill="ORANGE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="53.0" layoutY="349.0" style="-fx-font-family: Trebuchet MS;" text="7." textFill="ORANGE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <TextField fx:id="t1" layoutX="79.0" layoutY="115.0" prefHeight="25.0" prefWidth="82.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t2" layoutX="79.0" layoutY="155.0" prefHeight="25.0" prefWidth="82.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t3" layoutX="79.0" layoutY="193.0" prefHeight="25.0" prefWidth="82.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t4" layoutX="79.0" layoutY="231.0" prefHeight="25.0" prefWidth="82.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t5" layoutX="79.0" layoutY="267.0" prefHeight="25.0" prefWidth="82.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t6" layoutX="79.0" layoutY="307.0" prefHeight="25.0" prefWidth="82.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t7" layoutX="79.0" layoutY="346.0" prefHeight="25.0" prefWidth="82.0" style="-fx-font-family: Trebuchet MS;" />
+      <Label alignment="CENTER_RIGHT" layoutX="396.0" layoutY="158.0" style="-fx-font-family: Trebuchet MS;" text="9." textAlignment="RIGHT" textFill="ORANGE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="396.0" layoutY="120.0" style="-fx-font-family: Trebuchet MS;" text="8." textAlignment="RIGHT" textFill="ORANGE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="368.0" layoutY="235.0" style="-fx-font-family: Trebuchet MS;" text="Extra 1" textAlignment="RIGHT" textFill="ORANGE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="392.0" layoutY="195.0" style="-fx-font-family: Trebuchet MS;" text="10." textAlignment="RIGHT" textFill="ORANGE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="368.0" layoutY="312.0" style="-fx-font-family: Trebuchet MS;" text="Extra 3" textAlignment="RIGHT" textFill="ORANGE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="368.0" layoutY="272.0" style="-fx-font-family: Trebuchet MS;" text="Extra 2" textAlignment="RIGHT" textFill="ORANGE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="368.0" layoutY="352.0" style="-fx-font-family: Trebuchet MS;" text="Extra 4" textAlignment="RIGHT" textFill="ORANGE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <TextField fx:id="t8" layoutX="422.0" layoutY="117.0" prefHeight="25.0" prefWidth="82.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t9" layoutX="422.0" layoutY="155.0" prefHeight="25.0" prefWidth="82.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t10" layoutX="422.0" layoutY="193.0" prefHeight="25.0" prefWidth="82.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t11" layoutX="422.0" layoutY="232.0" prefHeight="25.0" prefWidth="82.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t12" layoutX="422.0" layoutY="269.0" prefHeight="25.0" prefWidth="82.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t13" layoutX="422.0" layoutY="309.0" prefHeight="25.0" prefWidth="82.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t14" layoutX="422.0" layoutY="348.0" prefHeight="25.0" prefWidth="82.0" style="-fx-font-family: Trebuchet MS;" />
+      <ImageView fitHeight="60.0" fitWidth="64.0" layoutX="21.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Logo_SON.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <Label ellipsisString="" layoutX="103.0" layoutY="27.0" text="GameBot v2.1 (AutoPresser for Games)" textFill="#ffba43">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <TextField fx:id="t15" layoutX="164.0" layoutY="115.0" prefHeight="25.0" prefWidth="55.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t16" layoutX="164.0" layoutY="155.0" prefHeight="25.0" prefWidth="55.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t17" layoutX="164.0" layoutY="193.0" prefHeight="25.0" prefWidth="55.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t18" layoutX="164.0" layoutY="231.0" prefHeight="25.0" prefWidth="55.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t19" layoutX="164.0" layoutY="267.0" prefHeight="25.0" prefWidth="55.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t20" layoutX="164.0" layoutY="307.0" prefHeight="25.0" prefWidth="55.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t21" layoutX="164.0" layoutY="346.0" prefHeight="25.0" prefWidth="55.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t22" layoutX="507.0" layoutY="117.0" prefHeight="25.0" prefWidth="55.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t23" layoutX="507.0" layoutY="155.0" prefHeight="25.0" prefWidth="55.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t24" layoutX="507.0" layoutY="193.0" prefHeight="25.0" prefWidth="55.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t25" layoutX="507.0" layoutY="232.0" prefHeight="25.0" prefWidth="55.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t26" layoutX="507.0" layoutY="269.0" prefHeight="25.0" prefWidth="55.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t27" layoutX="507.0" layoutY="309.0" prefHeight="25.0" prefWidth="55.0" style="-fx-font-family: Trebuchet MS;" />
+      <TextField fx:id="t28" layoutX="507.0" layoutY="348.0" prefHeight="25.0" prefWidth="55.0" style="-fx-font-family: Trebuchet MS;" />
+      <Label layoutX="94.0" layoutY="94.0" text="Tuş" textFill="WHITE" />
+      <Label layoutX="178.0" layoutY="94.0" prefHeight="17.0" prefWidth="28.0" text="Süre" textFill="WHITE" />
+      <Label layoutX="231.0" layoutY="94.0" text="Süre Türü" textFill="WHITE" />
+      <Label layoutX="431.0" layoutY="94.0" text="Tuş" textFill="WHITE" />
+      <Label layoutX="515.0" layoutY="94.0" prefHeight="17.0" prefWidth="28.0" text="Süre" textFill="WHITE" />
+      <Label layoutX="568.0" layoutY="94.0" text="Süre Türü" textFill="WHITE" />
+      <Label layoutX="4.0" layoutY="443.0" text="Durum: " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDurum" layoutX="67.0" layoutY="443.0" text="                " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="b3" alignment="CENTER" contentDisplay="CENTER" layoutX="418.0" layoutY="405.0" mnemonicParsing="false" onAction="#alanlariTemizle" text="Alanları Temizle" textFill="#010101">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Label fx:id="lblYardim" ellipsisString="" layoutX="625.0" layoutY="2.0" onMouseClicked="#yardimPenceresi" prefHeight="30.0" prefWidth="12.0" text="?" textFill="#ffba43">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="lblSimge" ellipsisString="" layoutX="646.0" layoutY="-2.0" onMouseClicked="#simgeDurumuna" prefHeight="28.0" prefWidth="19.0" text="_" textFill="#ffba43">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="lblKapat" ellipsisString="" layoutX="672.0" layoutY="4.0" onMouseClicked="#programiKapat" prefHeight="28.0" prefWidth="19.0" text="X" textFill="#ffba43">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+   </children>
+</AnchorPane>
