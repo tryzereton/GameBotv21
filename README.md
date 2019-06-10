@@ -1,2 +1,2 @@
 # GameBotv21
-AutoPresser
+AutoPresser for Games
