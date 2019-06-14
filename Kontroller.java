@@ -389,30 +389,30 @@ public class Kontroller extends Application {
 						try {
 							Robot r = new Robot();	
 							if(t12.getText().toUpperCase().equals("F1")){
-								r.keyPress(122);
+								r.keyPress(112);
 								r.setAutoDelay(100);
-								r.keyRelease(122);
+								r.keyRelease(112);
 								
 							}
 							else if(t12.getText().toUpperCase().equals("F2")) {
-								r.keyPress(123);
+								r.keyPress(113);
 								r.setAutoDelay(100);
-								r.keyPress(123);
+								r.keyPress(113);
 							}
 							else if(t12.getText().toUpperCase().equals("F3")) {
-								r.keyPress(124);
+								r.keyPress(114);
 								r.setAutoDelay(100);
-								r.keyRelease(124);
+								r.keyRelease(114);
 							}
 							else if(t12.getText().toUpperCase().equals("F4")) {
-								r.keyPress(125);
+								r.keyPress(115);
 								r.setAutoDelay(100);
-								r.keyRelease(125);
+								r.keyRelease(115);
 							}
 							else if(t12.getText().toUpperCase().equals("F5")) {
-								r.keyPress(126);
+								r.keyPress(116);
 								r.setAutoDelay(100);
-								r.keyRelease(126);
+								r.keyRelease(116);
 							}
 							else {
 							r.keyPress((int)t12.getText().toUpperCase().charAt(0));
@@ -434,30 +434,30 @@ public class Kontroller extends Application {
 						try {
 							Robot r = new Robot();	
 							if(t13.getText().toUpperCase().equals("F1")){
-								r.keyPress(132);
+								r.keyPress(112);
 								r.setAutoDelay(100);
-								r.keyRelease(132);
+								r.keyRelease(112);
 								
 							}
 							else if(t13.getText().toUpperCase().equals("F2")) {
-								r.keyPress(133);
+								r.keyPress(113);
 								r.setAutoDelay(100);
-								r.keyPress(133);
+								r.keyPress(113);
 							}
 							else if(t13.getText().toUpperCase().equals("F3")) {
-								r.keyPress(134);
+								r.keyPress(114);
 								r.setAutoDelay(100);
-								r.keyRelease(134);
+								r.keyRelease(114);
 							}
 							else if(t13.getText().toUpperCase().equals("F4")) {
-								r.keyPress(135);
+								r.keyPress(115);
 								r.setAutoDelay(100);
-								r.keyRelease(135);
+								r.keyRelease(115);
 							}
 							else if(t13.getText().toUpperCase().equals("F5")) {
-								r.keyPress(136);
+								r.keyPress(116);
 								r.setAutoDelay(100);
-								r.keyRelease(136);
+								r.keyRelease(116);
 							}
 							else {
 							r.keyPress((int)t13.getText().toUpperCase().charAt(0));
@@ -480,30 +480,30 @@ public class Kontroller extends Application {
 						try {
 							Robot r = new Robot();	
 							if(t14.getText().toUpperCase().equals("F1")){
-								r.keyPress(142);
+								r.keyPress(112);
 								r.setAutoDelay(100);
-								r.keyRelease(142);
+								r.keyRelease(112);
 								
 							}
 							else if(t14.getText().toUpperCase().equals("F2")) {
-								r.keyPress(143);
+								r.keyPress(113);
 								r.setAutoDelay(100);
-								r.keyPress(143);
+								r.keyPress(113);
 							}
 							else if(t14.getText().toUpperCase().equals("F3")) {
-								r.keyPress(144);
+								r.keyPress(114);
 								r.setAutoDelay(100);
-								r.keyRelease(144);
+								r.keyRelease(114);
 							}
 							else if(t14.getText().toUpperCase().equals("F4")) {
-								r.keyPress(145);
+								r.keyPress(115);
 								r.setAutoDelay(100);
-								r.keyRelease(145);
+								r.keyRelease(115);
 							}
 							else if(t14.getText().toUpperCase().equals("F5")) {
-								r.keyPress(146);
+								r.keyPress(116);
 								r.setAutoDelay(100);
-								r.keyRelease(146);
+								r.keyRelease(116);
 							}
 							else {
 							r.keyPress((int)t14.getText().toUpperCase().charAt(0));
